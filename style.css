@@ -1,0 +1,42 @@
+@font-face {
+    font-family: f1;
+    src: url(./Modern\ Thrash\ Demo.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.box1{
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right,blue,red); */
+    background-image: url(https://images.unsplash.com/photo-1686748973463-eb977c2ea31e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2832);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 15px;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: f1;
+}
+
+button{
+    font-size: 25px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: transparent;
+    font-weight: 400;
+}
